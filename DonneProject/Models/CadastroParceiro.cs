@@ -21,6 +21,6 @@ namespace DonneProject.Models
 
         [Required]
         public int NomeAreaId { get; set; }
-        public Funcao NomeArea { get; set; }
+        public Atuacao NomeArea { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DonneProject.Migrations
 {
     [DbContext(typeof(DonneDbContext))]
-    [Migration("20220109013325_Inicial")]
+    [Migration("20220109234218_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -144,7 +144,7 @@ namespace DonneProject.Migrations
 
             modelBuilder.Entity("DonneProject.Models.CadastroParceiro", b =>
                 {
-                    b.HasOne("DonneProject.Models.Funcao", "NomeArea")
+                    b.HasOne("DonneProject.Models.Atuacao", "NomeArea")
                         .WithMany()
                         .HasForeignKey("NomeAreaId")
                         .OnDelete(DeleteBehavior.Cascade)
