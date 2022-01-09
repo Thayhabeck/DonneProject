@@ -15619,8 +15619,28 @@
   "RootNamespace": "DonneProject",
   "Documents": [
     {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroParceiros\\Create.cshtml",
+      "TargetPath": "Views\\CadastroParceiros\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Contato\\Index.cshtml",
+      "TargetPath": "Views\\Contato\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroParceiros\\Delete.cshtml",
+      "TargetPath": "Views\\CadastroParceiros\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Contato\\Create.cshtml",
+      "TargetPath": "Views\\Contato\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15629,13 +15649,63 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Contato\\Details.cshtml",
+      "TargetPath": "Views\\Contato\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroSobrevs\\Index.cshtml",
+      "TargetPath": "Views\\CadastroSobrevs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Home\\Cadastro.cshtml",
+      "TargetPath": "Views\\Home\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Contato\\Edit.cshtml",
+      "TargetPath": "Views\\Contato\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroSobrevs\\Delete.cshtml",
+      "TargetPath": "Views\\CadastroSobrevs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroSobrevs\\Details.cshtml",
+      "TargetPath": "Views\\CadastroSobrevs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Contato\\Delete.cshtml",
+      "TargetPath": "Views\\Contato\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroSobrevs\\Edit.cshtml",
+      "TargetPath": "Views\\CadastroSobrevs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroParceiros\\Edit.cshtml",
+      "TargetPath": "Views\\CadastroParceiros\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroSobrevs\\Create.cshtml",
+      "TargetPath": "Views\\CadastroSobrevs\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15646,6 +15716,16 @@
     {
       "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroParceiros\\Details.cshtml",
+      "TargetPath": "Views\\CadastroParceiros\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\Views\\CadastroParceiros\\Index.cshtml",
+      "TargetPath": "Views\\CadastroParceiros\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

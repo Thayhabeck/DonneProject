@@ -65,7 +65,7 @@ namespace DonneProject.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["NomeAreaId"] = new SelectList(_context.Funcao, "Id", "NomeFuncao", cadastroParceiro.NomeAreaId);
+            ViewData["NomeAreaId"] = new SelectList(_context.Atuacao, "Id", "NomeArea", cadastroParceiro.NomeAreaId);
             return View(cadastroParceiro);
         }
 
@@ -82,7 +82,7 @@ namespace DonneProject.Controllers
             {
                 return NotFound();
             }
-            ViewData["NomeAreaId"] = new SelectList(_context.Funcao, "Id", "NomeFuncao", cadastroParceiro.NomeAreaId);
+            ViewData["NomeAreaId"] = new SelectList(_context.Atuacao, "Id", "NomeArea", cadastroParceiro.NomeAreaId);
             return View(cadastroParceiro);
         }
 
@@ -118,7 +118,7 @@ namespace DonneProject.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["NomeAreaId"] = new SelectList(_context.Funcao, "Id", "NomeFuncao", cadastroParceiro.NomeAreaId);
+            ViewData["NomeAreaId"] = new SelectList(_context.Atuacao, "Id", "NomeArea", cadastroParceiro.NomeAreaId);
             return View(cadastroParceiro);
         }
 

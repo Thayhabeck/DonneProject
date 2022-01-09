@@ -5,7 +5,11 @@ for details on configuring this project to bundle and minify static web assets. 
   padding: 0px;
   margin: 0px;
 }
-
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #555, transparent);  
+}
 header{
   box-shadow: 0 .25rem .75rem #555;
 
@@ -93,7 +97,9 @@ body {
   text-align: center;
   box-shadow: 0 -0.25rem .75rem #555;
 }
-
+.img-recode{
+  height: 12px;
+}
 .navbar-brand > img {
     height: 30px;
 }
@@ -117,4 +123,26 @@ body {
 .carousel-inner {
     height: 100%;
     width: 100%;
+}
+
+.header-pags{
+  display: inline-flex;
+  justify-content: center;
+  background-color:#9f408066;
+  height:100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.header-pags > h2{
+  height:100px;
+  padding: 30px;
+  font-family: 'Baumans';
+}
+
+.person{
+  background-color: #d6338644;
+  border-radius: 20px;
+}
+.icongrande{
+  height: 350px;
 }

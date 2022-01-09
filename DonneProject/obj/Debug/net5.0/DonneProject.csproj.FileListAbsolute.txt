@@ -197,3 +197,4 @@ D:\thay_\Documents\Recode Pro\PROJETO\Entrega 2\DonneProject\DonneProject\obj\De
 D:\thay_\Documents\Recode Pro\PROJETO\Entrega 2\DonneProject\DonneProject\obj\Debug\net5.0\Razor\Views\CadastroParceiros\Details.cshtml.g.cs
 D:\thay_\Documents\Recode Pro\PROJETO\Entrega 2\DonneProject\DonneProject\obj\Debug\net5.0\Razor\Views\CadastroParceiros\Edit.cshtml.g.cs
 D:\thay_\Documents\Recode Pro\PROJETO\Entrega 2\DonneProject\DonneProject\obj\Debug\net5.0\Razor\Views\CadastroParceiros\Index.cshtml.g.cs
+D:\thay_\Documents\Recode Pro\PROJETO\Entrega 2\DonneProject\DonneProject\obj\Debug\net5.0\Razor\Views\Home\Cadastro.cshtml.g.cs

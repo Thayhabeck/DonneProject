@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 </head>
 <body>
     <header class="p-0 m-0">
@@ -30,10 +34,7 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Sobre nós</a>
                         </li>
                         <li class="nav-item bg-dark">
-                            <a class="nav-link text-light" asp-area="" asp-controller="CadastroParceiros" asp-action="Index">Cadastro de Parceiro</a>
-                        </li>
-                        <li class="nav-item bg-dark">
-                            <a class="nav-link text-light" asp-area="" asp-controller="CadastroSobrevs" asp-action="Index">Cadastro de Sobrevivente</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Cadastro">Cadastro</a>
                         </li>
                         <li class="nav-item bg-dark">
                             <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Create">Contato</a>
@@ -43,7 +44,7 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid p-3">
+    <div class="container-fluid p-0">
         <main role="main" class="p-0">
             @RenderBody()
         </main>
@@ -51,7 +52,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - DonneProject - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2022 - DonneProject -  <a  href="https://www.recodepro.org.br/" target="_blank"><img class="img-recode" src="~/assets/recodepro.png" alt="Recode pro"></a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
