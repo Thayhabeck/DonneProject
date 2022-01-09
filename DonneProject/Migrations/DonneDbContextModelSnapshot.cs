@@ -142,7 +142,7 @@ namespace DonneProject.Migrations
 
             modelBuilder.Entity("DonneProject.Models.CadastroParceiro", b =>
                 {
-                    b.HasOne("DonneProject.Models.Funcao", "NomeArea")
+                    b.HasOne("DonneProject.Models.Atuacao", "NomeArea")
                         .WithMany()
                         .HasForeignKey("NomeAreaId")
                         .OnDelete(DeleteBehavior.Cascade)
