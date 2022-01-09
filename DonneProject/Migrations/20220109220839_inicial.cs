@@ -2,7 +2,7 @@
 
 namespace DonneProject.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -63,9 +63,9 @@ namespace DonneProject.Migrations
                 {
                     table.PrimaryKey("PK_Parceiro", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Parceiro_Funcao_NomeAreaId",
+                        name: "FK_Parceiro_Atuacao_NomeAreaId",
                         column: x => x.NomeAreaId,
-                        principalTable: "Funcao",
+                        principalTable: "Atuacao",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -107,9 +107,6 @@ namespace DonneProject.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Atuacao");
-
-            migrationBuilder.DropTable(
                 name: "Contato");
 
             migrationBuilder.DropTable(
@@ -117,6 +114,9 @@ namespace DonneProject.Migrations
 
             migrationBuilder.DropTable(
                 name: "Sobrevivente");
+
+            migrationBuilder.DropTable(
+                name: "Atuacao");
 
             migrationBuilder.DropTable(
                 name: "Funcao");

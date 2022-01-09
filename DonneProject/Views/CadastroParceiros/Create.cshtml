@@ -4,53 +4,47 @@
     ViewData["Title"] = "Create";
 }
 
-<div class="header-pags p-0 m-0">
-    <h2 class="text-center">Cadastro de Parceiro</h2>
-</div>
-<hr class="p-0 m-0"/>
-<div class="row p-5 justify-content-around font-weight-bolder">
-    <div class="col-md-4 px-5">
-        <img class="img-fluid my-4 icongrande" src="~/assets/IconeDonne.svg" alt="icone">
-    </div>
-    <div class="col-md-4 person p-3">
+<h1>Create</h1>
+
+<h4>CadastroParceiro</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="RZsocial" class="control-label">Razão Social</label>
+                <label asp-for="RZsocial" class="control-label"></label>
                 <input asp-for="RZsocial" class="form-control" />
                 <span asp-validation-for="RZsocial" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Nome" class="control-label">Nome Fantasia</label>
+                <label asp-for="Nome" class="control-label"></label>
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="cnpj" class="control-label">CNPJ</label>
+                <label asp-for="cnpj" class="control-label"></label>
                 <input asp-for="cnpj" class="form-control" />
                 <span asp-validation-for="cnpj" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="email" class="control-label">E-mail de Contato</label>
+                <label asp-for="email" class="control-label"></label>
                 <input asp-for="email" class="form-control" />
                 <span asp-validation-for="email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NomeAreaId" class="control-label">Área de Atuação</label>
+                <label asp-for="NomeAreaId" class="control-label"></label>
                 <select asp-for="NomeAreaId" class ="form-control" asp-items="ViewBag.NomeAreaId"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Adicionar" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
-        <div>
-            <a asp-action="Index" class="text-primary">
-                <span class="material-icons">
-                    reply
-                </span>Voltar
-            </a>
-        </div>
     </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
