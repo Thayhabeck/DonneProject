@@ -4,28 +4,35 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<div class="header-pags p-0 m-0">
+    <h2 class="text-center">Lista de Donnes!</h2>
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+
+<a class="d-inline-flex align-items-center p-3 btn btn-outline-light m-4 rounded font-weight-bold cadastro" asp-action="Create">
+    <span class="material-icons px-1">
+        add_circle
+    </span>Inserir Nova Sobrevivente
+</a>
+
+
+<table class="table table-striped">
+    <thead class="thead-light">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                Nome
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.cpf)
+                CPF
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.endereco)
+                Endereço
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.email)
+                E-mail
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NomeFuncao)
+                Função Pretendida
             </th>
             <th></th>
         </tr>
@@ -49,9 +56,21 @@
                 @Html.DisplayFor(modelItem => item.NomeFuncao.NomeFuncao)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">
+                    <span class="material-icons">
+                            edit
+                    </span>
+                </a> |
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">
+                    <span class="material-icons">
+                            info
+                    </span>
+                </a> |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">
+                    <span class="material-icons">
+                            delete
+                    </span>
+                </a>
             </td>
         </tr>
 }

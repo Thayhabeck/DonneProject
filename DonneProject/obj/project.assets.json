@@ -8192,24 +8192,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\thay_\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\Desktop\\Projeto Donne v3\\DonneProject\\DonneProject\\DonneProject.csproj",
+      "projectUniqueName": "D:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\DonneProject.csproj",
       "projectName": "DonneProject",
-      "projectPath": "C:\\Users\\Rodrigo\\Desktop\\Projeto Donne v3\\DonneProject\\DonneProject\\DonneProject.csproj",
-      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\Desktop\\Projeto Donne v3\\DonneProject\\DonneProject\\obj\\",
+      "projectPath": "D:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\DonneProject.csproj",
+      "packagesPath": "C:\\Users\\thay_\\.nuget\\packages\\",
+      "outputPath": "D:\\thay_\\Documents\\Recode Pro\\PROJETO\\Entrega 2\\DonneProject\\DonneProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\thay_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8276,7 +8275,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   },

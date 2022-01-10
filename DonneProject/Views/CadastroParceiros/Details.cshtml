@@ -4,38 +4,38 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h3 class="m-4 text-center">O que deseja saber sobre a Parceria?</h3>
 
-<div>
-    <h4>CadastroParceiro</h4>
+<div class="container-fluid">
+    <h4>Parceiro</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RZsocial)
+            Razão Social
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.RZsocial)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
+            Nome do Representante
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Nome)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.cnpj)
+            CNPJ
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.cnpj)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.email)
+            E-mail
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.email)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NomeArea)
+            Área de Atuação
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NomeArea.NomeArea)
@@ -43,6 +43,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a class="btn btn-info ml-2" asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Lista Completa</a>
 </div>

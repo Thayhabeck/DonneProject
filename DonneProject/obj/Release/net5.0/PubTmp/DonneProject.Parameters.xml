@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="DonneProject" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\thay_\\Documents\\Recode\ Pro\\PROJETO\\Entrega\ 2\\DonneProject\\DonneProject\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="DonneProject.Data.DonneDbContext" description="" value="Data Source=tcp:server-habeck.database.windows.net,1433;Initial Catalog=DonneProject_db;User Id=adminazure@server-habeck;Password=@dmin123" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\thay_\\Documents\\Recode\ Pro\\PROJETO\\Entrega\ 2\\DonneProject\\DonneProject\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\DonneProject\.Data\.DonneDbContext\.sql$" />
+  </parameter>
+</parameters>
