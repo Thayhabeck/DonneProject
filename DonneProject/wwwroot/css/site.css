@@ -146,3 +146,13 @@ body {
 .icongrande{
   height: 350px;
 }
+
+#cad_nova_sobreviv {
+    box-shadow: 0 .15rem .15rem #555;
+    color: #f58220;
+}
+
+#cad_nova_sobreviv:hover {
+    box-shadow: 0 .25rem .75rem #555;
+    color: #fff;
+}
