@@ -147,12 +147,20 @@ body {
   height: 350px;
 }
 
-#cad_nova_sobreviv {
+
+
+.cadastro {
     box-shadow: 0 .15rem .15rem #555;
-    color: #f58220;
+    color: #000000;
+    background-color: rgb(216, 178, 204);
 }
 
-#cad_nova_sobreviv:hover {
+.cadastro:hover {
     box-shadow: 0 .25rem .75rem #555;
+    background-color: rgb(165, 63, 129);
     color: #fff;
+}
+
+.cadastro-img {
+    opacity: 0.3;
 }
