@@ -4,33 +4,40 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<div class="header-pags p-0 m-0">
+    <h2 class="text-center">Mensagem de @Html.DisplayFor(model => model.Nome)</h2>
+</div>
 
-<div>
-    <h4>Contato</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Mensagem)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Mensagem)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+<hr class="p-0 m-0" />
+<div class="m-5 d-inline-flex justify-content-center ">
+    <div class="container w-75 d-lg-inline-block">
+        <dl class="row p-2 table tabela">
+            <dt class="col-sm-4">
+                Nome:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-4">
+                E-mail:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            <dt class="col-sm-4">
+                Mensagem:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Mensagem)
+            </dd>
+        </dl>
+        <div>
+            <!--<a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.Id">
+        Editar mensagem
+    </a> |-->
+            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.Id">
+                Apagar Mensagem
+            </a> |
+            <a asp-action="Index">Lista de Mensagens</a>
+        </div>
+    </div>

@@ -4,44 +4,46 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<div class="header-pags p-0 m-0">
+    <h2 class="text-center">Mensagens Recebidas</h2>
+</div>
+<hr class="p-0 m-0" />
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+<a class="d-inline-flex align-items-center p-3 btn btn-outline-light m-4 rounded font-weight-bold cadastro"
+    asp-action="Create">
+    <span class="material-icons px-1">
+        add_circle
+    </span>Enviar nova Mensagem
+</a>
+
+<table class="table table-striped tabela">
+    <thead class="thead-dark">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                Autor da Mensagem
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Mensagem)
+                E-mail do Autor
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Mensagem)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">
+                        Ler Mensagem
+                    </a> 
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

@@ -4,12 +4,16 @@
     ViewData["Title"] = "Edit";
 }
 
-<h3 class="m-4 text-center">O que deseja editar sobre a Parceria?</h3>
+<div class="header-pags p-0 m-0">
+    <h2 class="text-center">Editar Dados de Parceiro!</h2>
+</div>
 
-<hr />
-<h4 class="m-4">Parceiro</h4>
-<div class="container-fluid d-inline-flex">
-    <div class="col-md-4">
+<hr class="p-0 m-0" />
+<div class="container-fluid d-inline-flex justify-content-around">
+    <div class="col-md-4 px-5">
+        <img class="img-fluid my-4 ml-4 icongrande" src="~/assets/IconeDonne.svg" alt="icone">
+    </div>
+    <div class="col-md-4 person p-3 m-3">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
@@ -19,7 +23,7 @@
                 <span asp-validation-for="RZsocial" class="text-danger"></span>
             </div>
             <div class="form-group font-weight-bold">
-                <label asp-for="Nome" class="control-label">Nome do Representante</label>
+                <label asp-for="Nome" class="control-label">Nome da Empresa</label>
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
@@ -42,13 +46,15 @@
                 <input type="submit" value="Salvar" class="btn btn-success" />
             </div>
         </form>
+        <div>
+        <a class="ml-4 text-primary" asp-action="Index">Ver Lista de Parceiros</a>
     </div>
+    </div>
+    
 </div>
 
-<div>
-    <a class="ml-4" asp-action="Index">Ver a Lista Completa</a>
-</div>
+
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

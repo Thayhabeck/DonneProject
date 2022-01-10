@@ -4,12 +4,16 @@
     ViewData["Title"] = "Edit";
 }
 
-<h3 class="m-4 text-center">O que deseja editar sobre a Sobrevivente?</h3>
+<div class="header-pags p-0 m-0">
+    <h2 class="text-center">Editar Dados de Donne!</h2>
+</div>
 
-<h4 class="m-4">Sobrevivente</h4>
-<hr />
-<div class="container-fluid d-inline-flex">
-    <div class="col-md-4">
+<hr class="p-0 m-0" />
+<div class="container-fluid d-inline-flex justify-content-around">
+    <div class="col-md-4 px-5">
+        <img class="img-fluid my-4 ml-4 icongrande" src="~/assets/IconeDonne.svg" alt="icone">
+    </div>
+    <div class="col-md-4 person p-3 m-3">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
@@ -42,11 +46,11 @@
                 <input type="submit" value="Salvar" class="btn btn-success" />
             </div>
         </form>
+        <div>
+        <a class="ml-4 text-primary" asp-action="Index">Ver Lista de Donnes!</a>
     </div>
-</div>
-
-<div>
-    <a class="ml-4" asp-action="Index">Ver a Lista Completa</a>
+    </div>
+    
 </div>
 
 @section Scripts {

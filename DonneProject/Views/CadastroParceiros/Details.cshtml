@@ -4,45 +4,48 @@
     ViewData["Title"] = "Details";
 }
 
-<h3 class="m-4 text-center">O que deseja saber sobre a Parceria?</h3>
-
-<div class="container-fluid">
-    <h4>Parceiro</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            Razão Social
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RZsocial)
-        </dd>
-        <dt class = "col-sm-2">
-            Nome do Representante
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            CNPJ
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.cnpj)
-        </dd>
-        <dt class = "col-sm-2">
-            E-mail
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.email)
-        </dd>
-        <dt class = "col-sm-2">
-            Área de Atuação
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NomeArea.NomeArea)
-        </dd>
-    </dl>
+<div class="header-pags p-0 m-0">
+    <h2 class="text-center">Informações sobre o Parceiro @Html.DisplayFor(model => model.Nome)</h2>
 </div>
-<div>
-    <a class="btn btn-info ml-2" asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
-    <a asp-action="Index">Lista Completa</a>
+
+<hr class="p-0 m-0" />
+<div class="m-5 d-inline-flex justify-content-center ">
+    <div class="container w-75 d-lg-inline-block">
+        <dl class="row p-2 table tabela">
+            <dt class="col-sm-4">
+                Razão Social:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.RZsocial)
+            </dd>
+            <dt class="col-sm-4">
+                Nome da Empresa:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-4">
+                CNPJ:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.cnpj)
+            </dd>
+            <dt class="col-sm-4">
+                E-mail:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.email)
+            </dd>
+            <dt class="col-sm-4">
+                Área de Atuação:
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.NomeArea.NomeArea)
+            </dd>
+        </dl>
+        <div class="row">
+            <a class="btn btn-info ml-2 mx-2" asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+            <a class="text-primary mx-2" asp-action="Index">Ver Lista de Parceiros</a>
+        </div>
+    </div>
 </div>

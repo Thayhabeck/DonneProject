@@ -87,15 +87,16 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
-  justify-content: center;
-  text-align: center;
-  box-shadow: 0 -0.25rem .75rem #555;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    white-space: nowrap;
+    line-height: 50px; /* Vertically center the text there */
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 -0.25rem .75rem #555;
 }
 .img-recode{
   height: 12px;
@@ -138,6 +139,9 @@ body {
   padding: 30px;
   font-family: 'Baumans';
 }
+img {
+  font-family: 'Baumans';
+}
 
 .person{
   background-color: #d6338644;
@@ -162,4 +166,47 @@ body {
 
 .cadastro-img {
     opacity: 0.3;
+}
+
+.tabela{
+  background: linear-gradient(90deg, rgba(255,188,35,.15) 0%, rgba(214,51,134,.15) 100%);
+}
+
+.somos1{
+  background: linear-gradient(90deg, rgba(255,188,35,.15) 0%, rgba(214,51,134,.15) 100%);
+  border: 1px solid #f58220;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 40px;
+
+}
+
+.somos2{
+  background: linear-gradient(90deg, rgba(214,51,134,.15) 0%, rgba(255,188,35,.15) 100%);
+  border: 1px solid #f58220;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 40px;
+}
+.somos1 > h2{
+  font-family: 'Baumans';
+}
+.somos2 > h2{
+  font-family: 'Baumans';
+}
+.somos1 > p {
+  font-size: 1.2em;
+}
+.somos2 > p {
+  font-size: 1.2em;
+}
+ p{
+  margin: 0px 10px 0px 10px;
+  font-size: 1.2em;
+}
+.somos{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
 }

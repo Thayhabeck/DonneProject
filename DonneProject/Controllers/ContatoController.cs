@@ -60,7 +60,7 @@ namespace DonneProject.Controllers
             {
                 _context.Add(contato);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Create));
             }
             return View(contato);
         }

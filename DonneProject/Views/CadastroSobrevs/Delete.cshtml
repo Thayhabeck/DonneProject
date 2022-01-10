@@ -4,46 +4,54 @@
     ViewData["Title"] = "Delete";
 }
 
-<h3 class="m-4 text-center">Tem certeza que deseja apagar o registro?</h3>
-<div class="p-3">
-    <h4>Sobrevivente:</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
+<div class="header-pags p-0 m-0">
+    <h2 class="text-center">Excluir Donne!</h2>
+</div>
+
+<hr class="p-0 m-0" />
+<div class="alert alert-danger alert-dismissible m-3 text-center">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Atenção!</strong> Tem certeza que deseja excluir esta Donne!?
+</div>
+<div class="m-3 d-inline-flex justify-content-center ">
+    <div class="container w-75 d-lg-inline-block">
+        <dl class="row p-2 table tabela">
+        <dt class = "col-sm-4">
             Nome
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-8">
             @Html.DisplayFor(model => model.Nome)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class = "col-sm-4">
             CPF
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-8">
             @Html.DisplayFor(model => model.cpf)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class = "col-sm-4">
             Endereço
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-8">
             @Html.DisplayFor(model => model.endereco)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class = "col-sm-4">
             E-mail
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-8">
             @Html.DisplayFor(model => model.email)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class = "col-sm-4">
             Função a Desempenhar
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-8">
             @Html.DisplayFor(model => model.NomeFuncao.NomeFuncao)
         </dd class>
     </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Apagar" class="btn btn-danger" /> |
-        <a asp-action="Index">Ver a lista completa</a>
-    </form>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Apagar" class="btn btn-danger" /> |
+            <a asp-action="Index">Ver Lista de Donnes!</a>
+        </form>
+    </div>
 </div>
