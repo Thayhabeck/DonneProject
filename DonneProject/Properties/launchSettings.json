@@ -22,7 +22,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": "true",
-      "applicationUrl": "https://donneproject.azurewebsites.net/",
+      "applicationUrl": "http://localhost:52793",
       "jsWebView2Debugging": false
     },
     "WSL": {

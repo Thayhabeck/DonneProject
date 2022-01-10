@@ -146,3 +146,20 @@ body {
 .icongrande{
   height: 350px;
 }
+
+
+.cadastro {
+    box-shadow: 0 .15rem .15rem #555;
+    color: #000000;
+    background-color: #d8b2cc;
+}
+
+.cadastro:hover {
+    box-shadow: 0 .25rem .75rem #555;
+    background-color: #a53f81;
+    color: #fff;
+ }
+
+.cadastro-img {
+    opacity: 0.3;
+}
