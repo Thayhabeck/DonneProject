@@ -19,16 +19,7 @@
     <thead class="thead-dark">
         <tr>
             <th>
-                Razão Social
-            </th>
-            <th>
                 Nome da Empresa
-            </th>
-            <th>
-                CNPJ
-            </th>
-            <th>
-                E-mail
             </th>
             <th>
                 Área de Atuação
@@ -40,16 +31,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.RZsocial)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.cnpj)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.email)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.NomeArea.NomeArea)
