@@ -210,3 +210,44 @@ img {
   margin: 0 auto;
   padding: 20px;
 }
+.card {
+    background-color: #ff3eff23;
+    min-width: 18rem;
+    max-width: 18rem;
+    width: 18rem;
+    border-radius: 20px;
+    box-shadow: 0 .25rem .75rem #555;
+}
+
+    .card:hover {
+        background-color: #ffbc2355;
+        border: 1px solid #ffbc23;
+        color: #000;
+    }
+
+.card-img-top {
+    height: 40%;
+    border-radius: 20px 20px 0px 00px;
+}
+
+.preco {
+    color: #7519ff;
+}
+
+.btn-secondary {
+    color: #fff;
+    font-size: 18px;
+    border-color: #a366da;
+    background: linear-gradient(90deg, rgba(255,62,255,.7) 0%, rgba(117,25,255,.7) 100%);
+    ;
+}
+
+    .btn-secondary:hover {
+        background: linear-gradient(90deg, rgba(255,62,255,.5) 0%, rgba(117,25,255,.5) 100%);
+        ;
+    }
+
+.person {
+    background-color: #ff3eff23;
+    border-radius: 20px;
+}
