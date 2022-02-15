@@ -5,7 +5,8 @@ Segunda entrega do Projeto social desenvolvido para o curso da Recode pro 2021.
 
 ## Vídeo Demo da Aplicação
 
-https://user-images.githubusercontent.com/83835069/148850205-cb7ca6a6-aa3f-49b8-90b8-443ce1724408.mp4
+https://user-images.githubusercontent.com/76403054/154134609-83aab310-62a7-4789-8b7f-37d8ad77581b.mp4
+
 
 #
 ## Diagrama de classes UML
